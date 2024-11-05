@@ -22,7 +22,7 @@
   </ItemGroup>
 
     <ItemGroup>
-  <ProjectReference Include="..\GithubActionsSEng.csproj" />
+  <ProjectReference Include="..\Logic\GithubActionsSEng.csproj" />
   </ItemGroup>
 
 </Project>

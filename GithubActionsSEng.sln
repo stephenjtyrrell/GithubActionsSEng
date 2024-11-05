@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GithubActionsSEng", "GithubActionsSEng.csproj", "{AFEA9761-50CA-4153-B442-1E38483EB4A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GithubActionsSEng", "Logic\GithubActionsSEng.csproj", "{AFEA9761-50CA-4153-B442-1E38483EB4A7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{310F2CAC-C126-4C79-B356-71AA6DF406AB}"
 EndProject
