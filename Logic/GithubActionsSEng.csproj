@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="newtonsoft.json" Version="13.0.3" />
     <PackageReference Include="xunit" Version="2.9.2" />
   </ItemGroup>
 
