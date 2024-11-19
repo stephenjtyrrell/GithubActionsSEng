@@ -19,7 +19,7 @@ public class Program
     foreach(string name in args){
         myObj.Name = name;
     }
-    Console.WriteLine(myObj.Name);
+    Console.WriteLine("name passed was " + myObj.Name);
   }
 }
 
