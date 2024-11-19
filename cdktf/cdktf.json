@@ -1,0 +1,11 @@
+{
+  "language": "csharp",
+  "app": "dotnet run -p MyTerraformStack.csproj",
+  "projectId": "c8f85d40-d39c-4327-bf5e-d1665b09e048",
+  "sendCrashReports": "false",
+  "terraformProviders": [
+    "hashicorp/aws@~>3.0"
+  ],
+  "terraformModules": [],
+  "context": {}
+}
