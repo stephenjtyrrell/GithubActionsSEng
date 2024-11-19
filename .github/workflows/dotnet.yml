@@ -28,6 +28,6 @@ jobs:
       run: dotnet restore
       
     - name: Build
-      run: dotnet build dotnet-application\GithubActionsSEng.sln --no-restore
+      run: dotnet build GithubActionsSEng.sln --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
