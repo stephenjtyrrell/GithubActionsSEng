@@ -38,6 +38,21 @@ namespace MyCompany.MyApp
                 AssociatePublicIpAddress = true
             });
 
+            // GITHUB
+            new GithubProvider(this, "github", new GithubProviderConfig { });
+
+            DataGithubRepository githubRepo = new DataGithubRepository(this, "github_repo", new DataGithubRepositoryConfig
+            {
+                Name = "GithubActionsSEng"            
+            });
+
+
+            ActionsVariable publicIp = new ActionsVariable(this, "public_ipAction", new ActionsVariableConfig{
+                Repository = githubRepo.Name,
+                Value = instance.PublicIp,
+                VariableName = "PUBLIC_IP"
+            });
+
             new TerraformOutput(this, "public_ip", new TerraformOutputConfig
             {
                 Value = instance.PublicIp
