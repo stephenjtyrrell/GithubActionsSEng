@@ -15,7 +15,7 @@ namespace MyCompany.MyApp
                 new CloudBackendConfig
                 {
                     Hostname = "app.terraform.io",
-                    Organization = "styrrell-org",
+                    Organization = "ST-GitHub",
                     Workspaces = new NamedCloudWorkspace("cdktf-lab")
                 }
             );
